@@ -37,7 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Full-stack developer with a passion for crafting responsive, user-friendly websites. I turn ideas into digital solutions with speed and precision, always adapting and learning to meet my clients' needs.
+          Full-stack developer with a passion for crafting responsive, user-friendly websites. I turn ideas into digital solutions with speed and precision, always adapting and learning to meet my clients&apos; needs.
+
           </p>
           <div>
             <Link
