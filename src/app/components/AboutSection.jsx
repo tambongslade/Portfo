@@ -15,6 +15,10 @@ const TAB_DATA = [
         <li> Node js</li>
         <li>JavaScript</li>
         <li>NextJs</li>
+   
+<li>PostSql</li>
+
+
       </ul>
     ),
   },  
