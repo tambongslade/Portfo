@@ -6,6 +6,14 @@ import { motion } from "framer-motion";
 const WorkExperience = () => {
   const experiences = [
     {
+      company: "LIS",
+      position: "Software Developer",
+      duration: "2025 - Present",
+      description:
+        "Building and maintaining digital solutions for LIS Group, including LIS Dev (custom web and mobile apps), and supporting multi-brand platforms with modern frameworks.",
+      tags: ["React", "TypeScript", "Vite", "Framer Motion"],
+    },
+    {
       company: "Camsoft",
       position: "Software Developer",
       duration: "Jul 2025 - Present",
