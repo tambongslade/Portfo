@@ -20,7 +20,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
 
-    const mailtoLink = `mailto:tambongkersten@gmail.com?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(`From: ${data.email}\n\n${data.message}`)}`;
+    const mailtoLink = `mailto:tambongslade17@gmail.com?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(`From: ${data.email}\n\n${data.message}`)}`;
     window.open(mailtoLink);
 
     setIsSubmitting(false);
