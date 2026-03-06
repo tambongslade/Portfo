@@ -16,7 +16,7 @@ const WorkExperience = () => {
     {
       company: "Simbtech",
       position: "Co-founder & Software Developer",
-      duration: "2022 - Present",
+      duration: "2022 - 2025",
       description:
         "Co-founded Simbtech and leading technical initiatives. Building products including SMS management systems and admin dashboards, contributing to company growth and client delivery.",
       tags: ["Flutter", "React", "MongoDB"],
