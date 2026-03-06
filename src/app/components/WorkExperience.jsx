@@ -14,14 +14,6 @@ const WorkExperience = () => {
       tags: ["React", "TypeScript", "Vite", "Framer Motion"],
     },
     {
-      company: "Camsoft",
-      position: "Software Developer",
-      duration: "Jul 2025 - Present",
-      description:
-        "Developing and maintaining software solutions, building full-stack web applications and contributing to client projects using modern frameworks and technologies.",
-      tags: ["Next.js", "Node.js", "TypeScript"],
-    },
-    {
       company: "Simbtech",
       position: "Co-founder & Software Developer",
       duration: "2022 - Present",
