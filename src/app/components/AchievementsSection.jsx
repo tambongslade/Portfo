@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     metric: "Projects Delivered",
-    value: "15",
+    value: "20",
     postfix: "+",
   },
   {
