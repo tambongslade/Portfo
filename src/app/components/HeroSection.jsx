@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
-import Image from "next/image";
+import dynamic from "next/dynamic";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+
+const AvatarScene = dynamic(() => import("./AvatarScene"), { ssr: false });
 
 const HeroSection = () => {
   return (
@@ -64,14 +66,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-            <Image
-              src="/images/HIM.png"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
+          <div className="rounded-full bg-gradient-to-br from-[#181818] to-[#0c0c0c] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
+            <AvatarScene />
+            <p className="absolute bottom-3 left-1/2 -translate-x-1/2 text-[10px] tracking-wide text-[#ADB7BE]/70 select-none pointer-events-none">
+              drag to rotate
+            </p>
           </div>
         </motion.div>
       </div>
