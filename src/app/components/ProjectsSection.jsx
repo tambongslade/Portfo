@@ -7,50 +7,85 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Sniper Buisness Center",
-    description: "An app to increase visibility of your buisness",
+    title: "SBC — Sniper Business Center",
+    description: "Business management platform serving 200,000+ active users, with data analytics and reporting.",
     image: "/images/sniper.png",
     tag: ["All", "Web"],
     gitUrl: "",
-    previewUrl: "https://www.sniperbuisnesscenter.com/",
+    previewUrl: "https://sniperbusinesscenter.com",
   },
   {
     id: 2,
-    title: "Spot Cameroon",
-    description: "an app discover places in cameroon",
-    image: "/images/spot.png",
-    tag: ["All", "Web","mobile"],
-    gitUrl: "https://github.com/tambongslade/spotwebsite",
-    previewUrl: "spotcmr.com",
+    title: "SBC Precom",
+    description: "Online pre-order platform (web + Play Store) for SBC Group's customers.",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "",
+    previewUrl: "https://sbcprecom.com",
   },
   {
     id: 3,
-    title: "Administrator dashboard",
-    description: "a dashboard to perform CRUD operations",
-    image: "/images/dashboard.png",
+    title: "SSIC — School Management System",
+    description: "Platform for managing students, teachers, fees, grades and academic activities.",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/tambongslade/AdminSafeSpace",
-    previewUrl: "https://github.com/tambongslade/AdminSafeSpace",
+    gitUrl: "",
+    previewUrl: "https://ssiccmr.com",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Delivro and app to order food and deliver food",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/tambongslade/delivro",
-    previewUrl: "https://github.com/tambongslade/delivro",
+    title: "What About You (WAY 2025)",
+    description: "Website for a major youth entrepreneurship fair — registrations, shop and networking.",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://whataboutyou.net",
   },
   {
     id: 5,
-    title: "Restaurant app",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/tambongslade/RestaurantApp",
-    previewUrl: "https://github.com/tambongslade/RestaurantApp",
+    title: "NURA — Maternal Health AI Assistant",
+    description: "AI assistant delivering clinical guidance via RAG and an embedded quantized LLM (Team INTELLIKAM).",
+    image: "/images/projects/4.png",
+    tag: ["All", "AI", "Mobile"],
+    gitUrl: "",
+    previewUrl: "",
   },
-
+  {
+    id: 6,
+    title: "SPOT",
+    description: "Geolocation app for discovering restaurants, businesses and sports centers in Cameroon.",
+    image: "/images/spot.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "https://github.com/tambongslade/spotwebsite",
+    previewUrl: "https://spotwebsite-sooty.vercel.app",
+  },
+  {
+    id: 7,
+    title: "Proxycom",
+    description: "Platform connecting radio stations with marketing agencies.",
+    image: "/images/projects/5.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "",
+    previewUrl: "https://proxycom.net",
+  },
+  {
+    id: 8,
+    title: "EVOL",
+    description: "E-commerce application with advanced web and mobile interfaces.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web", "Mobile"],
+    gitUrl: "",
+    previewUrl: "",
+  },
+  {
+    id: 9,
+    title: "AI Medical Diagnosis System",
+    description: "Pneumonia detection from chest X-ray images using computer vision.",
+    image: "/images/dashboard.png",
+    tag: ["All", "AI"],
+    gitUrl: "",
+    previewUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -91,6 +126,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="AI"
+          isSelected={tag === "AI"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

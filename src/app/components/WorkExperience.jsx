@@ -6,22 +6,28 @@ import { motion } from 'framer-motion';
 const WorkExperience = () => {
   const experiences = [
     {
-      company: "Camsoft",
-      position: "Software Developer",
-      duration: "8 months ago - Present",
-      description: "Working as a Software Developer at Camsoft, developing and maintaining software solutions."
+      company: "Life's Simple (Groupe LIS)",
+      position: "Full-Stack Software Engineer",
+      duration: "Dec 2025 – Jul 2026",
+      description: "Building and maintaining full-stack web and mobile features across several products for African markets — responsive front-ends, back-end services, API/database integration and payment flows, delivered within an Agile team."
     },
     {
-      company: "Antic",
-      position: "Security, Networking & Software Department Intern",
-      duration: "6 months",
-      description: "Served as an intern in the Security, Networking, and Software departments at Antic, gaining valuable experience in cybersecurity, network infrastructure, and software development."
+      company: "SIMBTECH",
+      position: "Co-Founder & Senior Software Engineer",
+      duration: "Dec 2024 – Nov 2025",
+      description: "Designed, built and maintained secure, high-performance web and mobile applications end-to-end. Gathered client requirements, wrote technical specs and system architecture, managed VPS infrastructure and security hardening, and integrated AI/ML into business products."
     },
     {
-      company: "Simbtech",
-      position: "Co-founder & Software Developer",
-      duration: "2022 - Present",
-      description: "Co-founded Simbtech and working as a Software Developer, leading technical initiatives and contributing to company growth."
+      company: "ANTIC (Agence Nationale des TIC)",
+      position: "Software Engineering Intern — IT Systems Department",
+      duration: "2024",
+      description: "Analyzed user needs and produced technical specifications for internal government systems. Ensured application stability, security and performance, and trained in government-grade cybersecurity, compliance and data auditing."
+    },
+    {
+      company: "CAMSOFT",
+      position: "Front-End Software Engineer — Development Dept.",
+      duration: "2023",
+      description: "Developed web and mobile front-end applications to modern interface standards, including testing, documentation and deployment."
     }
   ];
 

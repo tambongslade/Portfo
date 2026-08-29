@@ -24,11 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Kersten",
                 1000,
-                "Web Developer",
+                "Full-Stack Engineer",
+                1000,
+                "AI/ML Engineer",
                 1000,
                 "Mobile Developer",
-                1000,
-                "UI/UX Designer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Full-stack developer with a passion for crafting responsive, user-friendly websites. I turn ideas into digital solutions with speed and precision, always adapting and learning to meet my clients&apos; needs.
-
+          Full-stack software engineer with 4+ years building and shipping web and mobile applications for public and private sector clients, including a business management platform serving 200,000+ active users. I specialize in React, NestJS, Node.js and Flutter, with applied AI/ML (RAG, LLMs, predictive models) and secure Linux/VPS deployment. Co-founder &amp; Technical Lead at SIMBTECH.
           </p>
           <div>
             <Link
@@ -48,7 +47,9 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="/Tambong_Kersten_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
